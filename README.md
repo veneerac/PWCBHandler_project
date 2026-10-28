@@ -12,7 +12,7 @@ This project implements a custom `PasswordCallbackHandler` for securing WSO2 Mic
 
 ## Prerequisites
 
-- JDK 8 to build the standalone handler. The root `pom.xml` compiles with `source`/`target` 1.6, which JDK 11 and later no longer support. To build with a newer JDK, change both values to `1.8`.
+- JDK 8 or later (tested with JDK 21). The handler is compiled for Java 8, so it runs on all current MI versions.
 - Maven 3.x
 - Access to the WSO2 Maven repository (`https://maven.wso2.org/nexus/content/repositories/releases/`) for `wss4j 1.5.11-wso2v17`.
 
